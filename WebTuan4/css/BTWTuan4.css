@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+/* ---------------------------------------Left---------------------------------------- */
+
+.left{
+    display: flex;
+    width: 90px;
+    height: 870px;
+    background-color: bisque;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.left_item{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.left_item--down1{
+    margin-top: 240px;
+}
+.left_item--down2{
+    margin-top: 20px;
+}
+/* ---------------------------------------Center---------------------------------------- */
+.center{
+    width: 910px;
+    height: auto;
+    background-color: aquamarine;
+    margin: 0 auto;
+    
+}
+.center_content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.center_content h2{
+    margin-top: 42px;
+    margin-left: 40px;
+}
+.center_content--box{
+    margin-top: 42px;
+    margin-right: 40px;
+    
+
+}
+.center_content--box .fa-solid{
+    
+    color: red;
+
+ 
+    display: flex;
+    margin-top: 2px;
+    padding-right: 13px;
+    align-items: center;
+    justify-content: center;
+}
+.center_content--box  p{
+    display: flex;
+    width: 90px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid red;
+    border-radius: 33px;
+    padding: 10px;
+
+}
+.center_date{
+    margin-top: 20px;
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+}
+.internal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80px;
+    height: 30px;
+    background-color: #E34D73;
+    border-radius: 20px;
+    font-size: 13px;
+    color:white;
+    padding-right: 5px;
+    
+}
+.internal i{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+.date{
+    margin-left: 12px;
+    color: #b2b2b2;
+}
+.fa-regular{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.date::after{
+    content: '';
+    position:absolute;
+    width: 2px;
+    height: 17px;
+    background-color:#d4d4d4;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+.time{
+    margin-left: 42px;
+    color: #b2b2b2;
+}
+.img{
+    /* position: relative; */
+    margin-top: 35px;
+    margin-left: 40px;
+    background-image: url('img_big.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    width: 831px;
+    height: 460px;
+}
+.img_big{
+    
+    /* display: flex; */
+    position: absolute;
+    
+}
+.img_mic{
+    width: 36px;height: 36px;
+    margin-top: 12px; 
+    margin-right: 23px;
+    
+    
+}
+.img_word{
+    /* position: absolute; */
+    width: 154px;
+    height: 37px;
+    margin-top: 12px;
+    margin-left: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: grey;
+}
+.fa-solid{
+    color:rgb(55, 200, 55);
+}
+/*  */
+
+.imgdown1{
+    /* position: relative; */
+    margin-top: 35px;
+    margin-left:40px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.img_items1
+{
+    display: flex;
+    background-image: url('img2.png');
+    background-repeat: no-repeat;
+    margin-left: 5;
+    border-radius: 15px;
+}
+.img_items2
+{
+    display: flex;
+    background-image: url('img1.png');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.img_items3
+{
+    display: flex;
+    background-image: url('img.png');
+    background-repeat: no-repeat;
+    margin-right: 42px;
+    border-radius: 15px;
+}
+.imgdown_word{
+    /* position: absolute; */
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}
+.imgdown_mic{
+    width: 25px;height: 25px;
+    margin-top: 10px;
+    margin-left: 120px;
+
+    
+    
+}
+.imgdown_item{
+    padding: 12px;
+}
+/* ---------------------------------------Right---------------------------------------- */
+.right{
+    width: 440px;
+    background-color: blueviolet;
+}
